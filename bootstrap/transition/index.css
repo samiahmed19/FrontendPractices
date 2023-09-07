@@ -1,0 +1,159 @@
+#fetch-data{
+    /* transition: 2s; */
+    /* margin:auto; */
+    width: 100px;
+    height:100px;
+    /* transition:width 1s, height 4s; */
+    background-color: green;
+    border:none;
+    transition: background-color 2s ease, width 2s ease;
+
+}
+#fetch-data:hover{
+    transform: scale(1.5);
+    /* transition:2s; */
+    
+    /* height: 100px; */
+    
+    /* background-color: red; */
+    /* width: 200px; */
+}
+/* #fetch-data{
+    position: relative;
+    top: 50px;
+    left: 50%;
+} */
+
+#data{
+    background-color: green;
+    /* transition: 4s ; */
+    /* transition-delay: 1s; */
+    /* transition-duration: 1s; */
+    /* transition-property:color ; */
+    /* transition-timing-function: ease; */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+} 
+#data:hover{
+    /* transform: scale(1); */
+    /* transform: translate(50px,100px) rotate(20deg); */
+    /* transform:  rotate(20deg);*/
+    /* transform: skewX(20deg); */
+    color:red;
+}
+@media screen and (max-width:480px){
+    .buttons{
+        display: flex;
+        flex-direction: row;
+    }
+}
+/* @media screen and (max-width:1200px){
+    .buttons{
+        display: flex;
+        flex-direction: column;
+    }
+} */
+/* for mobile devices: 320 to 480 pixels 
+   for ipads and tablets: 481 to 768 pixels
+   for laptops and small screens: 769 to 1024 pixels
+   for large screens and desktops: 1025 to 1200 pixels
+   for tv and large screen: 1201 and more 
+*/
+/* @media screen and(min-width:320px), (max-width:480px){
+    #bn1{
+        color: red;
+    }
+}
+@media screen and(min-width:481px), (max-width:768px){
+    #bn2{
+        color: red;
+    }
+}
+@media screen and(min-width:769px), (max-width:1024px){
+    #bn3{
+        color: red;
+    }
+} */
+/* 
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    #data {
+        background-color: red;
+    }
+} */
+
+/* for tabs-pink */
+/* @media screen and (min-width: 400px) and (max-width: 500px) {
+    @media screen and (min-width: 481px) and (max-width: 768px) {
+        
+    }
+    #data {
+        background-color: pink;
+    }
+} */
+
+/* for laptops-green */
+/* @media screen and (min-width: 769px) and (max-width: 1024px) {
+    #data {
+        background-color: orange;
+    }
+} */
+
+/* for larger screens of laptops -grey */
+/* @media screen and (min-width: 1025px) and (max-width: 1200px) {
+    #data {
+        background-color: grey;
+    }
+} */
+
+/* for tvs-black */
+/* @media screen and (min-width: 1201px) {
+    #data {
+        background-color: black;
+    }
+} */
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .buttons{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* for tabs-pink */
+@media screen and (min-width: 400px) and (max-width: 500px) {
+    @media screen and (min-width: 481px) and (max-width: 768px) {
+        
+    }
+    .buttons{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* for laptops-green */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .buttons{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+/* for larger screens of laptops -grey */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    .buttons{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+/* for tvs-black */
+@media screen and (min-width: 1201px) {
+    .buttons{
+        display: flex;
+        flex-direction: row;
+    }
+}

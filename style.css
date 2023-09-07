@@ -1,0 +1,83 @@
+.header{
+    background-color: cadetblue;
+    height: 110px; 
+    /* width: 600px; */
+    margin-bottom: -16px;
+    padding-bottom: 1px;
+    margin-top: -20px;
+    margin-left: -5px;
+ }
+ #Education{
+     background-color: rgb(106, 246, 106);
+     /* border: 2px solid black; */
+     margin-left: -5px;
+ }
+ #accom{
+     background-color: gainsboro;
+    /* border: 2px solid black; */
+    margin-left: -5px;
+    margin-top: -16px;
+    display: flex;
+    height: 180px;
+ }
+ #inps{
+     background-color: red;
+ }
+ #cons{
+     background-color: burlywood;
+     /* margin-top: -19px; */
+     margin-left: 2px;
+     display: flex;
+     justify-content: center;
+     height: 50px;
+     align-items: center;
+     /* flex-direction: r; */
+     width: 80%;
+    }
+ #qs{
+    background-color: tomato;
+    /* margin-top: -18px; */
+    margin-left: -6px;
+    height: 50px;
+    margin-top: -13px;
+    margin-bottom: 15px;
+    display: flex;
+     /* justify-content: first baseline; */
+     align-items: center;
+ }
+ #sgs{
+    background-color: aqua;
+    /* margin-top: -9px; */
+    /* margin-left: 2px; */
+    /* height: 50px; */
+    display: flex;
+    width: 30%;
+     justify-content: flex-end;
+     align-items: last baseline;
+     /* flex-direction: ce; */
+ }
+ #name{
+    border-radius: 150px;
+    text-align: center;
+ }
+ #name1{
+    background-color: cadetblue;
+    text-align: center;
+}
+#pf{
+    text-align: left;
+    color:black;
+}
+#para{
+    text-align: left;
+    height: 20px;
+}
+#all{
+    margin-top: -13px;
+    border: 2px solid black;
+    /* margin-bottom: 50px; */
+    margin-left: -7px;
+    /* display: flex; */
+    height: 50px;
+    display: flex;
+}

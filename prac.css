@@ -1,0 +1,79 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+
+}
+.parent{
+    height: 30%;
+    width: 35%;
+    background-color: antiquewhite;
+    border: 1px solid black;
+    position: relative;
+    top: 100px;
+    left: 500px;
+    right: 1000px;
+    border-radius: 20px;
+    transition: transform 0.6s ease-in-out;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.parent:hover{
+    background-color: aquamarine;
+    transform: scale(1.1);
+}
+/* .child{
+    height: 40%;
+    width: 35%;
+    background-color: blueviolet;
+    border: 1px solid black;
+    position: absolute;
+    top: 40px;
+    left: 80px;
+} */
+.chatbot{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+    margin: 40px;
+    font-weight: bolder;
+    /* top: 10px; */
+    display: flex;
+    justify-content: center;
+    opacity: 0.5;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    /* left: 100px; */
+}
+.stick
+{
+    height: 10%;
+    width: 100%;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+
+.box{
+    height: 40%;
+    width: 40%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    transition: transform 0.6s ease-in-out;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+.box:hover{
+    background-color: aquamarine;
+    transform: scale(1.1);
+}
